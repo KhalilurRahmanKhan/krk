@@ -1,0 +1,22 @@
+.full{
+    width: 100%;
+     
+    background-color: #000;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    clear: both;
+    text-align: center;
+}
+.full h3{
+    color: white;
+    padding-top: 20px;
+
+}
+.skills{
+    padding-top: 30px;
+    width: 50%;
+    margin: auto;
+   
+  
+
+}

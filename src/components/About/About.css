@@ -1,0 +1,46 @@
+.about{
+    background-color: black;
+    overflow: hidden;
+    padding-top: 55px;
+    color: white;
+    text-align: center;
+  
+}
+.about h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pic{
+    width: 45%;
+    float: left;
+    text-align: center;
+   
+}
+.pic img{
+    width: 50%;
+    border: 1px solid white;
+    box-shadow: 1px 2px 3px 0px #ffffff;
+
+    margin: auto;
+}
+.details{
+    width: 50%;
+    float: right;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 15px;
+    padding-right: 50px;
+    
+    
+    
+}
+.details p{
+    padding-top: 20px;
+    font-size: 20px;
+    word-spacing: 3px;
+    font-weight: 100;
+    line-height: 30px;
+    
+}

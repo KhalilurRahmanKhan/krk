@@ -1,0 +1,33 @@
+.sidebar{
+    background-color: black;
+    width: 13%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -20%;
+    transition: all 0.5s ease;
+    z-index: 50;
+}
+ul{
+  
+    list-style: none;
+    margin-top: 80%;
+   
+}
+li{
+    margin: 15px;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+li:hover a{
+  color: brown;
+  
+}
+.active{
+    right: 0%;
+}

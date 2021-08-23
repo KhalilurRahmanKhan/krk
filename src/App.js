@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Topbar from "./components/Topbar/Topbar";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Intro from "./components/Intro/Intro";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Contact from "./components/Contact/Contact";
+import Timeline from "./components/Timeline/Timeline";
+import Skills from "./components/Skills/Skills";
+import Services from "./components/Services/Services";
+import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
+import "./App.css";
+import { useState } from 'react';
 
-function App() {
+const App = () => {
+  const [menu, setMenu] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+   
+     <Topbar menu={menu} setMenu={setMenu}/>
+     <Sidebar menu={menu} setMenu={setMenu}/>
+     <Intro/>
+     <About/>
+     <Skills/>
+     <Timeline/>
+     <Portfolio/>
+     <Services/>
+     <Testimonials/>
+     <Contact/>
+     <Footer/>
+    
+     
+    
     </div>
   );
-}
+};
 
 export default App;
