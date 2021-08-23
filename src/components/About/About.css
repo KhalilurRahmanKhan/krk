@@ -23,6 +23,7 @@
     box-shadow: 1px 2px 3px 0px #ffffff;
 
     margin: auto;
+    margin-top: 20%;
 }
 .details{
     width: 50%;
@@ -38,9 +39,49 @@
 }
 .details p{
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 16px;
     word-spacing: 3px;
     font-weight: 100;
     line-height: 30px;
     
 }
+
+@media only screen and (max-width: 950px) {
+   
+    .pic{
+        width: 100%;
+        float: none;
+        text-align: center;
+       
+    }
+    .details{
+        width: 100%;
+        float: none;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        line-height: 15px;
+        
+        
+        
+    }
+    .details p{
+        padding-top: 20px;
+        font-size: 16px;
+        word-spacing: 3px;
+        font-weight: 100;
+        line-height: 30px;
+        padding-left: 30px;
+        
+    }
+    .about{
+        padding-top: 0px;
+      
+    }
+    .about h3{
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+   
+
+  }
