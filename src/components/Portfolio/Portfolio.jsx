@@ -10,7 +10,7 @@ const Portfolio = () => {
             title: "design",
             // image: "images/unicorn.png",
             image: "images/pc-parts.png",
-            link: "https://khalilurrahmankhan.github.io/Unicorn/",
+            link: "https://pc-parts-e1775.firebaseapp.com/",
             desc:"A website for purchasing computer parts",
         },
         {
@@ -18,7 +18,7 @@ const Portfolio = () => {
             title: "design",
             // image: "images/meow.png",
             image: "images/book.png",
-            link: "https://khalilurrahmankhan.github.io/Meow/",
+            link: "https://book-stock-edae9.web.app/",
             desc:"A website for warehouse of books",
         },
         {
@@ -26,7 +26,7 @@ const Portfolio = () => {
             title: "design",
             // image: "images/parallels.png",
             image: "images/john.png",
-            link: "https://khalilurrahmankhan.github.io/parallels/",
+            link: "https://learn-with-john.web.app/",
             desc:"A website for online course instructor",
         },
         // {
@@ -88,6 +88,7 @@ const Portfolio = () => {
                                     <img src={item.image} alt="" />
                                     <p>{item.desc}</p>
                                     <button className=''>Detailes</button>
+                                    <button className=''><a style={{color:"black"}} href={item.link} target="_blank">Live Site</a></button>
                                 </div>
 
 
