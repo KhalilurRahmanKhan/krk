@@ -12,6 +12,8 @@ import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Blog from './Pages/Blog';
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -29,6 +31,9 @@ const App = () => {
      <Testimonials/>
      <Contact/>
      <Footer/>
+     <Routes>
+        <Route path="blog" element={<Blog />} />
+      </Routes>
     
      
     
