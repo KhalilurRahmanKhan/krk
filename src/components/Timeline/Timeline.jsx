@@ -76,7 +76,7 @@ const Timeline = () => {
                
             </VerticalTimeline>
 
-            <a href={resume} class="myButton" download="Khalilur Rahman Khan" >Download Resume</a>
+            {/* <a href={resume} class="myButton" download="Khalilur Rahman Khan" >Download Resume</a> */}
             
         </div>
         

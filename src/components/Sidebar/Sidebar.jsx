@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
 
@@ -8,6 +9,7 @@ const Sidebar = ({menu ,setMenu}) => {
         <div className={"sidebar " + (menu && 'active')}>
             <ul>
                <li onClick={() => setMenu(!menu)}><a href="#home" > Home </a></li>
+               <li onClick={() => setMenu(!menu)}><Link to="blog" > Blog </Link></li>
                 <li onClick={() => setMenu(!menu)}><a href="#about" > About </a></li>
                 <li onClick={() => setMenu(!menu)}><a href="#skills"> Skills </a></li>
                 <li onClick={() => setMenu(!menu)}><a href="#resume"> Resume </a></li>
