@@ -44,13 +44,13 @@ const Contact = () => {
   <h3>Contact Me</h3>
   <form onSubmit={sendEmail}>
     <label for="user_name">Name</label>
-    <input type="text" id="user_name" name="user_name" placeholder="Your name"/>
+    <input type="text" id="user_name" name="user_name" placeholder="Your name" required/>
 
     <label for="user_email">Email</label>
-    <input type="email" id="user_email" name="user_email" placeholder="Your email"/>
+    <input type="email" id="user_email" name="user_email" placeholder="Your email" required/>
 
     <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="Write your message" ></textarea>
+    <textarea id="message" name="message" placeholder="Write your message" required></textarea>
 
     <input type="submit" value="Submit"/><br /><br />
     {msg}
