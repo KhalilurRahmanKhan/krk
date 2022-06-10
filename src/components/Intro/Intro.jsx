@@ -4,6 +4,7 @@ import Typingeffect from "../Typingeffect/Typingeffect";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import resume from "./Khalilur Rahman Khan.pdf";
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 const Intro = () => {
@@ -19,7 +20,9 @@ const Intro = () => {
             <a href="https://www.linkedin.com/in/khalilur-rahman-khan-034a81201/"><LinkedInIcon/></a>
             <a href="https://github.com/KhalilurRahmanKhan"><GitHubIcon/></a><br />
 
-            <a href="#contact" class="myButton1">Contact me</a><br />
+            {/* <a href="#contact" class="myButton1">Contact me</a> */}
+            <a href={resume} class="myButton" download="Khalilur Rahman Khan" >Download Resume</a>
+            <br />
             <a href="#about"><KeyboardArrowDownIcon/></a>
 
            
