@@ -9,8 +9,8 @@ function Detailes() {
         {
             id: 1,
             image1: "../images/pc-parts.png",
-            image2: "../images/pc-parts-2.png",
-            image3: "../images/pc-parts-3.png",
+            image2: "../images/pc-parts2.png",
+            image3: "../images/pc-parts3.png",
             client:"https://github.com/KhalilurRahmanKhan/pc-parts-client",
             server:"https://github.com/KhalilurRahmanKhan/pc-parts-server",
             link: "https://pc-parts-e1775.firebaseapp.com/",
@@ -26,9 +26,9 @@ function Detailes() {
             id: 2,
             client:"https://github.com/KhalilurRahmanKhan/book-stock-client",
             server:"https://github.com/KhalilurRahmanKhan/book-stock-server",
-            image2: "../images/book-2.png",
+            image2: "../images/book2.png",
             image1: "../images/book.png",
-            image3: "../images/book-3.png",
+            image3: "../images/book3.png",
             link: "https://book-stock-edae9.web.app/",
             desc:{
                 one:" 1)Login and Registration system",
@@ -43,8 +43,8 @@ function Detailes() {
             client:"https://github.com/KhalilurRahmanKhan/learn-with-john",
             server:"#",
             image1: "../images/john.png",
-            image2: "../images/learn-2.png",
-            image3: "../images/learn3.png",
+            image2: "../images/learn2.png",
+            image3: "../images/learn33.png",
             link: "https://learn-with-john.web.app/",
             desc:{
                 one:" 1)Authentication system using Email and password",
