@@ -1,6 +1,7 @@
 import React from 'react';
 import './Portfolio.css';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Portfolio = () => {
@@ -87,8 +88,8 @@ const Portfolio = () => {
                                 <div className='project-item' >
                                     <img src={item.image} alt="" />
                                     <p>{item.desc}</p>
-                                    <button className=''>Detailes</button>
-                                    <button className=''><a style={{color:"black"}} href={item.link} target="_blank">Live Site</a></button>
+                                    <Link style={{color:"black",backgroundColor:"white",padding:"5px",borderRadius:"2px",margin:"1px"}} to={`/detailes/${item.id}`} className=''>Detailes</Link>
+                                  <a style={{color:"black",backgroundColor:"white",padding:"5px",borderRadius:"2px",margin:"1px"}} href={item.link} target="_blank">Live Site</a>
                                 </div>
 
 
