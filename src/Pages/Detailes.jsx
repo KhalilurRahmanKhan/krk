@@ -26,8 +26,8 @@ function Detailes() {
             id: 2,
             client:"https://github.com/KhalilurRahmanKhan/book-stock-client",
             server:"https://github.com/KhalilurRahmanKhan/book-stock-server",
-            image1: "../images/book.png",
             image2: "../images/book-2.png",
+            image1: "../images/book.png",
             image3: "../images/book-3.png",
             link: "https://book-stock-edae9.web.app/",
             desc:{
